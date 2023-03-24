@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://jingmint.com
+Host: https://cryptofounders.app
 
 # Sitemaps
-Sitemap: https://jingmint.com:4210/sitemap.xml
+Sitemap: https://cryptofounders.app:4210/sitemap.xml

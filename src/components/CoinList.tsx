@@ -29,10 +29,6 @@ const CoinSummary = (props:any) => {
 
   return (
     <div className={`flex p-4 items-center cursor-pointer ${dark ? 'hover:bg-gray-500' : 'hover:bg-gray-50'}`} onClick={handleClick}>
-      {/* <div className='pr-4 text-base text-opacity-50 font-semibold'>
-        {n}
-        <HeadshotMini headshotUrl={'https://robohash.org/jingmint?size=128x128'} />
-      </div> */}
       <div className='flex flex-col text-base font-semibold w-28'>
         <div className='ml-1'>
           <HeadshotMini headshotUrl={contact?.headshot} />

@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAppSelector } from '../redux/hooks'
-import logo from '../assets/logo.svg'
+import logo from '../assets/logo.jpg'
 import Menu from './Menu'
 import { NavContext } from "../NavContext"
 import { ThemeContext, darkCss, lightCss } from '../ThemeContext';
@@ -16,8 +16,8 @@ const Logo = () => {
 
   return (
     <div className='flex items-center cursor-pointer' onClick={handleClick}>
-      <img className='w-16' src={logo}/>
-      <p className='text-xl font-bold ml-2'>JingMint</p>
+      <img className='w-16 rounded-full' src={logo}/>
+      <p className='text-xl font-bold ml-2'>CryptoFounders</p>
     </div>
   )
 }

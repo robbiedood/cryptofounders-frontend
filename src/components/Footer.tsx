@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='bg-brand p-4 text-xs text-primary'>
       <div className='flex p-2'>
-        2023, JingMint<AiOutlineCopyrightCircle/>
+        2023, CryptoFounders<AiOutlineCopyrightCircle/>
       </div>
       <div className='p-2 cursor-pointer'>
         Privacy Policy

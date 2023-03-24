@@ -6,7 +6,7 @@
  */
 
 // const SERVER_DOMAIN = 'http://10.0.0.200' //local host, 測試用
-const SERVER_DOMAIN = 'https://jingmint.com' //domain name
+const SERVER_DOMAIN = 'https://cryptofounders.app' //domain name
 const SERVER_URL = SERVER_DOMAIN + ':4210' //反向代理port (proxy server url)
 
 // Restful API

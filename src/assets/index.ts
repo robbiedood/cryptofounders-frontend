@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import robbie from "./robbie.jpg";
 import priceChart from "./price-chart.jpg";
 import holder01 from "./headshots/holder01.jpg";

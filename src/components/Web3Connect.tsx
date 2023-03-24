@@ -102,7 +102,7 @@ const Web3Connect = ({text}:GETSTARTED_PROPS) => {
     console.log('founder address: ', address)
     let result = await createFounderByGraphQL(address)
     .then(res => {
-      console.log('sucessfully connected into JingMint server!')
+      console.log('sucessfully connected into CryptoFounders server!')
       return res
     })
     .catch( err => {
