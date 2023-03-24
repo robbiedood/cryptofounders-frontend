@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jingmint.com
+
+# Sitemaps
+Sitemap: https://jingmint.com:4210/sitemap.xml

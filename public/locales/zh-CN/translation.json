@@ -1,0 +1,26 @@
+{
+  "Found": "创建货币",
+  "Account": "帐户",
+  "Language": "语言",
+  "NightMode": "夜晚模式",
+  "en": "英",
+  "zh-TW": "繁中",
+  "zh-CN": "简中",
+  "ConnectWallet": "连结钱包",
+  "root-page":{
+    "Trending": "热门币",
+    "viewall": "检视所有",
+    "viewless": "收起",
+    "CoinName": "货币名称",
+    "ValueProposition": "价值主张",
+    "PersonalizedCoin": "个人货币",
+    "Slogan": "您的专长，您的加密货币。解锁您的独特价值，与世界交易。",
+    "CTA": "创造您的个人货币"
+  },
+  "found-page": {
+    "PleaseConnectWallet": "请连结您的钱包"
+  },
+  "account-page":{
+    "PleaseConnectWallet":"请连结您的钱包, 取得帐户资讯"
+  }
+}

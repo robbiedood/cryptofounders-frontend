@@ -1,0 +1,26 @@
+{
+  "Found": "Found",
+  "Account": "Account",
+  "Language": "Language",
+  "NightMode": "Night Mode",
+  "en": "EN",
+  "zh-TW": "zh-TW",
+  "zh-CN": "zh-CN",
+  "ConnectWallet": "Connet Wallet",
+  "root-page":{
+    "Trending": "Trending",
+    "viewall": "view all",
+    "viewless": "view less",
+    "CoinName": "Coin Name",
+    "ValueProposition": "Value Proposition",
+    "PersonalizedCoin": "Personalized Coin",
+    "Slogan": "Your specialty, your coin. Unlock the value of your unique talents, trade or utilize them with the world.",
+    "CTA": "Found a Coin"
+  },
+  "found-page":{
+    "PleaseConnectWallet": "Please Connect Your wallet"
+  },
+  "account-page":{
+    "PleaseConnectWallet": "Connect Your Wallet to Access Account"
+  }
+}
