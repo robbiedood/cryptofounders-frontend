@@ -1,1 +1,1 @@
-# JingMint-frontend
+# CryptoFounders-frontend
