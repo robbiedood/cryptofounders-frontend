@@ -15,7 +15,7 @@ const CTAOffer = ({coinName}:any) => {
       </p>
       <div className='text-opacity-500 text-sm mt-4'>
         <p>Offer any kind of cryptos, </p>
-        <p>ETH, GoerliETH or personalized coins !</p>
+        <p>OKT or your coins !</p>
       </div>
     </div>
   )

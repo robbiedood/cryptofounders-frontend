@@ -28,7 +28,7 @@ export const MakeOfferForm = (prop: any) => {
     setFormData({ ...formData, [event.target.name]: newValue });
 
     if (event.target.name === 'payingCoinType') {
-      if (!['GoerliETH', 'ETH'].includes(newValue)) {
+      if (!['OKT', 'ETH'].includes(newValue)) {
         setIsAddendumChecked(true)
       } else {
         setIsAddendumChecked(false)
@@ -127,7 +127,7 @@ export const UpdateOfferForm = (prop: any) => {
     setFormData({ ...formData, [event.target.name]: newValue });
 
     if (event.target.name === 'payingCoinType') {
-      if (!['GoerliETH', 'ETH'].includes(newValue)) {
+      if (!['OKT', 'ETH'].includes(newValue)) {
         setIsAddendumChecked(true)
       } else {
         setIsAddendumChecked(false)
@@ -255,7 +255,7 @@ export const ReplyOfferForm = (prop: any) => {
     setFormData({ ...formData, [event.target.name]: newValue });
 
     if (event.target.name === 'payingCoinType') {
-      if (!['GoerliETH', 'ETH'].includes(newValue)) {
+      if (!['OKT', 'ETH'].includes(newValue)) {
         setIsAddendumChecked(true)
       } else {
         setIsAddendumChecked(false)
@@ -424,7 +424,7 @@ const PayingAmount = (props: any) => {
         {
           foundingCoinNames.map((c: any, ind: number) => <option key={`${ind}+${c}`}>{c}</option>)
         }
-        <option key={'10k-GoerliETH'}>GoerliETH</option>
+        <option key={'10k-OKT'}>OKT</option>
         <option key={'100k-ETH'}>ETH</option>
       </select>
     </div>
