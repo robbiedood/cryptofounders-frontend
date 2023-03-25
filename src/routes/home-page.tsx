@@ -27,7 +27,6 @@ export default function HomePage() {
   useEffect( () => {
     const fectchCoins = async () => {
       const allCoins = await getAllCoinsByGraphQL()
-      console.log(allCoins)
       dispatch(setCoinAll(allCoins))
     }
     console.log('First-fetching coins')
