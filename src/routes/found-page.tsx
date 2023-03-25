@@ -5,6 +5,7 @@ import { useAppSelector } from '../redux/hooks'
 import { NavContext } from "../NavContext"
 import Web3Connect from "../components/Web3Connect";
 import { ThemeContext, darkCss, lightCss } from '../ThemeContext';
+import { tallyFormEmbedUrl, tallyFormTinyUrl } from "../constants";
 
 
 export default function FoundPage() {
@@ -28,7 +29,7 @@ export default function FoundPage() {
 
   return ( isConnected && !isFounder ) ? (
       <div className={`${dark ? darkCss : lightCss} pt-24 z-0 h-screen ${menuOpen ? 'bg-gray-500 overflow-hidden' : ''}`}>
-        <iframe src="https://tally.so/embed/3je4aQ?alignLeft=1&hideTitle=1&dynamicHeight=1" title="Let's Create Your Coin"
+        <iframe src={tallyFormEmbedUrl} title="Let's Create Your Coin"
         className="w-full h-5/6"></iframe>
         <div className="text-right mr-4 mt-10">
           <button className="p-2 rounded-lg border-2 text-sm"
@@ -44,7 +45,7 @@ export default function FoundPage() {
         <Web3Connect text={`${t('ConnectWallet')}`}/>
         <h1 className="text-base mt-8">{'Do not have a wallet and no time to set one ?'}</h1>
         <h1 className="text-base underline mt-2">
-          <Link href="https://tinyurl.com/jingmint">found anyway and let us prepare one for you</Link>
+          <Link href={tallyFormTinyUrl}>found anyway and let us prepare one for you</Link>
         </h1>
       </div>
     </div>

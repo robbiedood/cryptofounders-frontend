@@ -49,7 +49,7 @@ export default function HomePage() {
           {/* <Category/> */}
           <div className="flex mt-4 justify-center">
             {/* <DemoVideo src={"https://www.youtube.com/embed/M6k9ZZVTHFQ?autoplay=1&controls=0&mute=1loop=1&modestbranding=1"}/> */}
-            <DemoVideo src={"https://player.vimeo.com/video/807690204?autoplay=1&loop=1&muted=1&controls=0"} />
+            {/* <DemoVideo src={"https://player.vimeo.com/video/807690204?autoplay=1&loop=1&muted=1&controls=0"} /> */}
           </div>
         <CoinList/>
         <Testimonials/>
