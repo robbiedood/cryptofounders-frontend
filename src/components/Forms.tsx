@@ -13,7 +13,7 @@ import { API_ACCEPT_OFFER, API_REJECT_OFFER } from '../constants/APIs';
 export const MakeOfferForm = (prop: any) => {
   const { setShowModal, coinFounder, coin, setSubmittedOffer } = prop
   const dispatch = useAppDispatch()
-  const [formData, setFormData] = useState({ desiredAmount: "", payingAmount: "", payingCoinType: "GoerliETH", expireAt: "", addendum: "" });
+  const [formData, setFormData] = useState({ desiredAmount: "", payingAmount: "", payingCoinType: "OKT", expireAt: "", addendum: "" });
 
   const [isAddendumChecked, setIsAddendumChecked] = useState(false);
   const [isLoading, setIsLoading] = useState(false);

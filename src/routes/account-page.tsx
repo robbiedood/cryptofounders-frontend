@@ -349,7 +349,7 @@ export default function AccountPage() {
   useEffect(() => {
     // get founder data from backend (如果剛用Tally found完coin，資料會在後端更新，所以要再抓一次)
     syncFounderData(accountAddress, dispatch)
-
+    console.log('i am syncing founder data')
     const intervalId = setInterval(() => {
       syncFounderData(accountAddress, dispatch);
   }, 10*1000); // 每10秒重新 fetch founder profile

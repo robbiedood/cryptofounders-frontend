@@ -7,7 +7,8 @@ import { setFounderProfile } from "../redux/founderProfileSlice";
 // requre dispatch in argu because hook can only be declared in a functional "component"
 export async function syncFounderData(accountAddress:string, dispatch: ReturnType<typeof useAppDispatch>) {
   try {
-    const founder = await getFounderByGraphQL(accountAddress)
+    const founder = await getFounderByGraphQL({accountAddress})
+    console.log('accountAddress', accountAddress)
     dispatch(setFounderProfile(founder))
     return true
   } catch (error) {

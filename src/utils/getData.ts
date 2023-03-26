@@ -112,6 +112,8 @@ export async function getFounderByGraphQL(input:any) {
 
   const variables = { accountAddress, _id }
 
+  console.log('variables: ', variables)
+
   const query = `query FounderProfile($accountAddress: String, $_id: String){
     founder(accountAddress: $accountAddress, _id: $_id) {
       accountAddress,
