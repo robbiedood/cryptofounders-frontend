@@ -13,7 +13,7 @@ import { API_ACCEPT_OFFER, API_REJECT_OFFER } from '../constants/APIs';
 export const MakeOfferForm = (prop: any) => {
   const { setShowModal, coinFounder, coin, setSubmittedOffer } = prop
   const dispatch = useAppDispatch()
-  const [formData, setFormData] = useState({ desiredAmount: "", payingAmount: "", payingCoinType: "OKT", expireAt: "", addendum: "" });
+  const [formData, setFormData] = useState({ desiredAmount: "", payingAmount: "", payingCoinType: "GoerliETH", expireAt: "", addendum: "" });
 
   const [isAddendumChecked, setIsAddendumChecked] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -28,7 +28,7 @@ export const MakeOfferForm = (prop: any) => {
     setFormData({ ...formData, [event.target.name]: newValue });
 
     if (event.target.name === 'payingCoinType') {
-      if (!['OKT', 'ETH'].includes(newValue)) {
+      if (!['GoerliETH', 'ETH'].includes(newValue)) {
         setIsAddendumChecked(true)
       } else {
         setIsAddendumChecked(false)
@@ -127,7 +127,7 @@ export const UpdateOfferForm = (prop: any) => {
     setFormData({ ...formData, [event.target.name]: newValue });
 
     if (event.target.name === 'payingCoinType') {
-      if (!['OKT', 'ETH'].includes(newValue)) {
+      if (!['GoerliETH', 'ETH'].includes(newValue)) {
         setIsAddendumChecked(true)
       } else {
         setIsAddendumChecked(false)
@@ -255,7 +255,7 @@ export const ReplyOfferForm = (prop: any) => {
     setFormData({ ...formData, [event.target.name]: newValue });
 
     if (event.target.name === 'payingCoinType') {
-      if (!['OKT', 'ETH'].includes(newValue)) {
+      if (!['GoerliETH', 'ETH'].includes(newValue)) {
         setIsAddendumChecked(true)
       } else {
         setIsAddendumChecked(false)
@@ -424,7 +424,7 @@ const PayingAmount = (props: any) => {
         {
           foundingCoinNames.map((c: any, ind: number) => <option key={`${ind}+${c}`}>{c}</option>)
         }
-        <option key={'10k-OKT'}>OKT</option>
+        <option key={'10k-GoerliETH'}>GoerliETH</option>
         <option key={'100k-ETH'}>ETH</option>
       </select>
     </div>
