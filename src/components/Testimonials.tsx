@@ -39,7 +39,7 @@ function Testimonials() {
   return (
     <div className='lg:w-4/5 lg:mx-auto'>
       <div className='flex justify-center mt-8 mb-4 pt-4 border-t-4 text-lg lg:text-2xl border-brand-500'>
-        <h2>Coin founders sharing <strong>their adventures</strong></h2>
+        <h2>Coin supporters <strong>say</strong></h2>
       </div>
       <div className='flex flex-wrap justify-center'>
         {
